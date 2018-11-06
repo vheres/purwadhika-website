@@ -1,0 +1,12 @@
+.no-padding {
+    padding: 0;
+}
+.padder-right {
+    padding-right: 15px;
+}
+.header-button:hover {
+    background-color: rgb(30, 197, 203);
+  }
+.header-button:focus {
+    background-color: rgb(30, 197, 203);
+}
