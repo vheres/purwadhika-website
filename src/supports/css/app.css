@@ -4,9 +4,25 @@
 .padder-right {
     padding-right: 15px;
 }
-.header-button:hover {
-    background-color: rgb(30, 197, 203);
-  }
-.header-button:focus {
-    background-color: rgb(30, 197, 203);
+.bg-transparent {
+    background-color: none;
+}
+.header-button-select {
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(93, 198, 240);
+}
+.header-button-select .header-dropdown-text {
+    color: white;
+}
+.header-dropdown-container {
+    margin-top: -2px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 0px;
+
+    background-color: rgb(93, 198, 240);
 }
